@@ -12,8 +12,6 @@
 
 This demo environment showcases all Sourcegraph features through the lens of a codebase that has seen things. Things like MD5 password hashing. Things like `0.0.0.0/0` security groups. Things that keep security teams up at night.
 
-**GitHub Organization**: `tm-acme-shop`
-
 ### The Backstory
 
 The ACME Shop engineering team is mid-migration on *everything*:
@@ -43,39 +41,6 @@ The ACME Shop engineering team is mid-migration on *everything*:
 | `acme-shop-analytics-etl` | Python | ETL batch jobs | SQL anti-patterns, PII handling |
 
 ---
-
-## Cross-Repo Dependencies
-
-```mermaid
-flowchart TB
-    subgraph Shared Libraries
-        shared-go[acme-shop-shared-go]
-        shared-ts[acme-shop-shared-ts]
-    end
-
-    subgraph Go Services
-        gateway[acme-shop-gateway]
-        users[acme-shop-users-service]
-        orders[acme-shop-orders-service]
-    end
-
-    subgraph TypeScript Services
-        frontend[acme-shop-frontend-web]
-        notifications[acme-shop-notifications-service]
-    end
-
-    subgraph Standalone
-        payments[acme-shop-payments-service]
-        analytics[acme-shop-analytics-etl]
-        infra[acme-shop-infra]
-    end
-
-    gateway --> shared-go
-    users --> shared-go
-    orders --> shared-go
-    frontend --> shared-ts
-    notifications --> shared-ts
-```
 
 ### Dependency Matrix
 
