@@ -40,6 +40,16 @@ The ACME Shop engineering team is mid-migration on *everything*:
 | `acme-shop-infra` | Terraform/Helm/YAML | Infrastructure as Code | Security misconfigs, CI migrations |
 | `acme-shop-analytics-etl` | Python | ETL batch jobs | SQL anti-patterns, PII handling |
 
+### Search Contexts
+
+Search contexts let you scope your Sourcegraph searches to a specific set of repositories. Instead of searching across all repos, you can target just the ones relevant to your current task.
+
+| Context | Description |
+|---------|-------------|
+| `context:@solutions-eng/acme-shop-all` | Contains all acme-shop repos |
+| `context:@solutions-eng/acme-shop-backend` | Backend repos: gateway, users-service, orders-service, payments-service, analytics-etl, shared-go |
+| `context:@solutions-eng/acme-shop-frontend` | Frontend repos: frontend-web, shared-ts, notifications-service |
+
 ---
 
 ### Dependency Matrix
