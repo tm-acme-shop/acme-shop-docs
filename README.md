@@ -21,6 +21,14 @@ The ACME Shop engineering team is mid-migration on *everything*:
 - **Payments**: Legacy client → new client (bank transfers still use the old one 🙃)
 - **Infrastructure**: "We'll fix it after launch" → actually fixing it
 
+### Supporting Docs
+
+These are additional supporting documents that do not live in the codebase.
+
+https://docs.google.com/document/d/1FyhSjtyzwvHnbUlX3Plhsi-I1lKYYo06yj-Js_CN_fs/edit?tab=t.0
+https://github.com/tm-acme-shop
+https://www.notion.so/sourcegraph/Additional-Notes-Demo-On-ACME-Shop-31ea8e11265880ba98fecd013045ee2c?source=copy_link
+
 ---
 
 ## Repository Architecture
