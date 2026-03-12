@@ -25,10 +25,10 @@ The ACME Shop engineering team is mid-migration on *everything*:
 
 These are additional supporting documents that do not live in the codebase.
 
-https://docs.google.com/document/d/1FyhSjtyzwvHnbUlX3Plhsi-I1lKYYo06yj-Js_CN_fs/edit?tab=t.0
-https://github.com/tm-acme-shop
-https://www.notion.so/sourcegraph/Additional-Notes-Demo-On-ACME-Shop-31ea8e11265880ba98fecd013045ee2c?source=copy_link
-https://sourcegraph-team-demo.atlassian.net/wiki/spaces/SI/pages/1048609/Sourcegraph+Features+Overview+for+Engineering+Leaders
+[Google Docs with Brainstorming Ideas](https://docs.google.com/document/d/1FyhSjtyzwvHnbUlX3Plhsi-I1lKYYo06yj-Js_CN_fs/edit?usp=sharing)
+[Github List of Repos](https://github.com/tm-acme-shop)
+[Internal Notion Page with Pricing](https://www.notion.so/sourcegraph/Pricing-Data-for-ACME-Shop-31ea8e11265880ba98fecd013045ee2c?source=copy_link)
+[Confluence ACME Shop Roadmap](https://sourcegraph-team-demo.atlassian.net/wiki/x/AQAX)
 
 ---
 
